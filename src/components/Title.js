@@ -4,7 +4,7 @@ const Title = () => {
     return(
         <>
         <div className = "title">
-            <h1>Todo App</h1>
+            <h1>Plan your Day!</h1>
         </div>
         </>
     );

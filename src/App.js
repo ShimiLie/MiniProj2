@@ -1,6 +1,7 @@
 import React from 'react';
 import Title from './components/Title';
 import './App.css';
+import AddTodo from './components/AddTodo';
 
 function App() {
   return (
@@ -8,6 +9,9 @@ function App() {
     <div className="App">
       <div>
         <Title />
+      </div>
+      <div>
+        <AddTodo />
       </div>
 
     </div>
