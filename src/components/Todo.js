@@ -3,7 +3,12 @@ import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import EditIcon from '@mui/icons-material/Edit';
 import DeleteIcon from '@mui/icons-material/Delete';
 
-const Todo = () => {
+export default function Todo({
+    todo, 
+    toggleComplete,
+    handleDelete,
+    handleEdit
+}) {
     const [ newTitle, setNewTitle] = useState(todo.title);
 
     const handleChange = (e) => {
@@ -51,4 +56,3 @@ const Todo = () => {
     )
 }
 
-export default Todo;
